@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>let | ervin 的文档库</title>
+    <meta name="description" content="前端工程师 ervin 的文档库">
+    <link rel="icon" href="/img/shier.png">
+    
+    <link rel="preload" href="/assets/css/styles.7cbb5589.css" as="style"><link rel="preload" href="/assets/js/app.7cbb5589.js" as="script"><link rel="preload" href="/assets/js/15.ea1c3fe6.js" as="script"><link rel="prefetch" href="/assets/css/1.styles.d7f549b0.css"><link rel="prefetch" href="/assets/css/2.styles.a2bd3099.css"><link rel="prefetch" href="/assets/js/1.d7f549b0.js"><link rel="prefetch" href="/assets/js/10.1e09a036.js"><link rel="prefetch" href="/assets/js/11.c1ef9745.js"><link rel="prefetch" href="/assets/js/12.c9f1a8aa.js"><link rel="prefetch" href="/assets/js/13.8e9828e4.js"><link rel="prefetch" href="/assets/js/14.f01a4e07.js"><link rel="prefetch" href="/assets/js/2.a2bd3099.js"><link rel="prefetch" href="/assets/js/3.a8381896.js"><link rel="prefetch" href="/assets/js/4.2bff4627.js"><link rel="prefetch" href="/assets/js/5.471ee734.js"><link rel="prefetch" href="/assets/js/6.0bc94443.js"><link rel="prefetch" href="/assets/js/7.35b2a8fe.js"><link rel="prefetch" href="/assets/js/8.4c678252.js"><link rel="prefetch" href="/assets/js/9.5a7c91ad.js">
+    <link rel="stylesheet" href="/assets/css/1.styles.d7f549b0.css"><link rel="stylesheet" href="/assets/css/2.styles.a2bd3099.css"><link rel="stylesheet" href="/assets/css/styles.7cbb5589.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">ervin 的文档库</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">主页</a></div><div class="nav-item"><a href="/frontend/" class="nav-link router-link-active">前端</a></div><div class="nav-item"><a href="/backend/" class="nav-link">后端</a></div><div class="nav-item"><a href="https://www.github.com/wwervin72" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">主页</a></div><div class="nav-item"><a href="/frontend/" class="nav-link router-link-active">前端</a></div><div class="nav-item"><a href="/backend/" class="nav-link">后端</a></div><div class="nav-item"><a href="https://www.github.com/wwervin72" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/frontend/" class="sidebar-link">README</a></li><li><a href="/frontend/js/es6/variableDeclare.html" class="active sidebar-link">变量声明</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/frontend/js/es6/variableDeclare.html#不存在变量提升" class="sidebar-link">不存在变量提升</a></li><li class="sidebar-sub-header"><a href="/frontend/js/es6/variableDeclare.html#暂时性死区" class="sidebar-link">暂时性死区</a></li><li class="sidebar-sub-header"><a href="/frontend/js/es6/variableDeclare.html#不允许重复声明" class="sidebar-link">不允许重复声明</a></li><li class="sidebar-sub-header"><a href="/frontend/js/es6/variableDeclare.html#块级作用域" class="sidebar-link">块级作用域</a></li><li class="sidebar-sub-header"><a href="/frontend/js/es6/variableDeclare.html#do表达式" class="sidebar-link">do表达式</a></li><li class="sidebar-sub-header"><a href="/frontend/js/es6/variableDeclare.html#const" class="sidebar-link">const</a></li><li class="sidebar-sub-header"><a href="/frontend/js/es6/variableDeclare.html#es6声明变量的六种方法" class="sidebar-link">ES6声明变量的六种方法</a></li></ul></li><li><a href="/frontend/js/es6/string.html" class="sidebar-link">字符串</a></li><li><a href="/frontend/js/es6/number.html" class="sidebar-link">数值</a></li><li><a href="/frontend/js/es6/regexp.html" class="sidebar-link">正则</a></li><li><a href="/frontend/js/es6/array.html" class="sidebar-link">数组</a></li><li><a href="/frontend/js/es6/function.html" class="sidebar-link">函数</a></li><li><a href="/frontend/js/es6/variable.html" class="sidebar-link">变量结构赋值</a></li><li><a href="/frontend/js/es6/babelrc.html" class="sidebar-link">babel配置</a></li></ul> </div> <div class="page"> <div class="content"><h1 id="let"><a href="#let" aria-hidden="true" class="header-anchor">#</a> let</h1> <blockquote><p>基本用法,用来声明变量，他的用法类似于var，但是只在当前的代码块内有效</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> prop <span class="token keyword">in</span> obj<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        
+    <span class="token punctuation">}</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>prop<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// ReferenceError: prop is not defined</span>
+</code></pre></div><blockquote><p>使用let解决for遍历里面使用setTimeout遍历的index不变的问题</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+           console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 打印10次10</span>
+    
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+           console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 打印 123456789</span>
+    <span class="token comment">// 当然这个还有很多解决办法</span>
+    <span class="token comment">//使用闭包</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">{</span>
+           console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span>
+       <span class="token punctuation">}</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 把参数传递进去</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">{</span>
+           console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><h2 id="不存在变量提升"><a href="#不存在变量提升" aria-hidden="true" class="header-anchor">#</a> 不存在变量提升</h2> <blockquote><p>var命令会发生变量提升现象，let不会</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code>    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//undefined</span>
+    <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token string">'123'</span><span class="token punctuation">;</span>
+    
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//RefrenceError: b is not defined</span>
+    <span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token string">'456'</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="暂时性死区"><a href="#暂时性死区" aria-hidden="true" class="header-anchor">#</a> 暂时性死区</h2> <blockquote><p>只要块级作用域内存在let命令，它所声明的变量就绑定在这个区域，不再受外部的影响</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token string">'213'</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        a <span class="token operator">=</span> <span class="token string">'456'</span><span class="token punctuation">;</span> <span class="token comment">//SyntaxError: Identifier 'a' has already been declared</span>
+        <span class="token keyword">let</span> a<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token keyword">function</span> <span class="token function">bar</span><span class="token punctuation">(</span>x <span class="token operator">=</span> y<span class="token punctuation">,</span> y <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">[</span>x<span class="token punctuation">,</span> y<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// ReferenceError: y is not defined</span>
+</code></pre></div><h2 id="不允许重复声明"><a href="#不允许重复声明" aria-hidden="true" class="header-anchor">#</a> 不允许重复声明</h2> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token comment">// 报错</span>
+    <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+        <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 报错</span>
+    <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><h2 id="块级作用域"><a href="#块级作用域" aria-hidden="true" class="header-anchor">#</a> 块级作用域</h2> <blockquote><p>为什么要块级作用域</p> <ol><li>内层变量可能会覆盖外层变量</li> <li>用来计数的循环变量泄漏为全局变量</li></ol></blockquote> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'I am outside!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span>
+    <span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// es6环境中，在块级作用域中，函数声明语句的行为类似于let，在块级作用域外不可引用</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// 重复声明一次函数f</span>
+            <span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'I am inside!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// TypeError: f is not a function</span>
+    <span class="token punctuation">}</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p>在块级作用域内声明函数，浏览器有自己的处理方式</p> <ol><li>允许在块级作用域内声明函数</li> <li>函数声明类似于var，即会提升到全局作用域，或者函数作用域的头部</li> <li>同时函数声明还会提升到所在的块级作用域的头部</li> <li>考虑到环境差异太大，应该避免在块级作用域内使用函数声明的方法声明函数，如果确实需要可以使用函数表达式</li> <li>块级作用域如果没有大括号{},声明函数会报错</li></ol></blockquote> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token comment">// 函数声明语句</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token string">'secret'</span><span class="token punctuation">;</span>
+        <span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 函数表达式</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token string">'secret'</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> <span class="token function-variable function">f</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><h2 id="do表达式"><a href="#do表达式" aria-hidden="true" class="header-anchor">#</a> do表达式</h2> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">let</span> x <span class="token operator">=</span> <span class="token keyword">do</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> t <span class="token operator">=</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        t <span class="token operator">*</span> t <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token comment">// 变量X会得到整个块级作用域的返回值</span>
+</code></pre></div><h2 id="const"><a href="#const" aria-hidden="true" class="header-anchor">#</a> const</h2> <ol><li>const 声明一个只读的常量，一旦声明，值不可更改。</li> <li>这就意味着const一旦声明，必须立即初始化，不能留着以后赋值</li> <li>不存在变量提升</li> <li>只在声明的当前块级作用域内有效</li> <li>不可重复声明</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token comment">// const实际上保证的，并不是变量的值不得改动，而是变量指向的那个内存地址不得改动</span>
+    <span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    foo<span class="token punctuation">.</span>prop <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span> <span class="token comment">// 不报错</span>
+    foo <span class="token operator">=</span> <span class="token punctuation">{</span>prop<span class="token punctuation">:</span> <span class="token number">123</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token comment">//吧foo指向一个新的引用就会报错</span>
+    
+    <span class="token keyword">const</span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    a<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'Hello'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 可执行</span>
+    a<span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token comment">// 可执行</span>
+    a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'Dave'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>    <span class="token comment">// 报错</span>
+    
+    <span class="token comment">//如果真的想将对象冻结，应该使用Object.freeze方法。</span>
+
+    <span class="token keyword">const</span> foo <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">freeze</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token comment">// 常规模式时，下面一行不起作用；</span>
+    <span class="token comment">// 严格模式时，该行会报错</span>
+    foo<span class="token punctuation">.</span>prop <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="es6声明变量的六种方法"><a href="#es6声明变量的六种方法" aria-hidden="true" class="header-anchor">#</a> ES6声明变量的六种方法</h2> <ol><li>var</li> <li>function</li> <li>let</li> <li>const</li> <li>import</li> <li>class</li></ol></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/frontend/" class="prev router-link-active">
+          README
+        </a></span> <span class="next"><a href="/frontend/js/es6/string.html">
+          字符串
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/15.ea1c3fe6.js" defer></script><script src="/assets/js/app.7cbb5589.js" defer></script>
+  </body>
+</html>
