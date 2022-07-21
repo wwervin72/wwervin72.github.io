@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7b8308d7","path":"/%E5%90%8E%E7%AB%AF/golang/base-command.html","title":"go get","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1658385732000,"contributors":[{"name":"ervinli","email":"ervinli@tencent.com","commits":1}]},"filePathRelative":"\u540E\u7AEF/golang/base-command.md"}');export{e as data};

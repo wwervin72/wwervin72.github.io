@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-813f29c6","path":"/%E5%89%8D%E7%AB%AF/js/implement/utils-js.html","title":"","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1658385732000,"contributors":[{"name":"ervinli","email":"ervinli@tencent.com","commits":1}]},"filePathRelative":"\u524D\u7AEF/js/implement/utils-js.md"}');export{e as data};

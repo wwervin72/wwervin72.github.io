@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-54011d3e","path":"/tool/vs-code/code-command.html","title":"macbook \u8C03\u6574\u80CC\u666F\u6837\u5F0F","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"\u5B89\u88C5 code \u547D\u4EE4","slug":"\u5B89\u88C5-code-\u547D\u4EE4","children":[]}],"git":{},"filePathRelative":"tool/vs-code/code-command.md"}');export{e as data};
