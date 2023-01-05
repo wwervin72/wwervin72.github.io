@@ -1,0 +1,16 @@
+import{_ as e,o as n,c as a,e as s}from"./app.ebc5d037.js";const r={},d=s(`<h1 id="_1-\u6307\u5B9A\u811A\u672C\u89E3\u91CA\u5668" tabindex="-1"><a class="header-anchor" href="#_1-\u6307\u5B9A\u811A\u672C\u89E3\u91CA\u5668" aria-hidden="true">#</a> 1. \u6307\u5B9A\u811A\u672C\u89E3\u91CA\u5668</h1><p>\u652F\u6301\u4E24\u79CD\u5199\u6CD5\uFF1A</p><pre><code>1. \u76F4\u63A5\u6307\u5B9A\u5B8C\u6574\u7684\u89E3\u91CA\u5668\u5B89\u88C5\u8DEF\u5F84
+2. #!/usr/bin/env\uFF0C\u540E\u9762\u8DDF\u8BE5\u73AF\u5883\u4E2D\u5B89\u88C5\u7684\u73AF\u5883\u53D8\u91CF\uFF0C\u6267\u884C\u7684\u65F6\u5019\u4F1A\u53BB$PATH\u4E2D\u627E\u5BF9\u5E94\u7684\u6267\u884C\u547D\u4EE4
+</code></pre><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
+<span class="token comment">#!/usr/bin/python</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token shebang important">#!/usr/bin/env bash</span>
+<span class="token comment">#!/usr/bin/env node</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_1-1-\u4E24\u79CD\u5199\u6CD5\u7684\u4F18\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#_1-1-\u4E24\u79CD\u5199\u6CD5\u7684\u4F18\u7F3A\u70B9" aria-hidden="true">#</a> 1.1 \u4E24\u79CD\u5199\u6CD5\u7684\u4F18\u7F3A\u70B9</h2><h3 id="_1-1-1-bin-bash" tabindex="-1"><a class="header-anchor" href="#_1-1-1-bin-bash" aria-hidden="true">#</a> 1.1.1 #!/bin/bash</h3><p>\u4F18\u70B9\uFF1A</p><pre><code>1. \u51C6\u786E\u6307\u51FA\u6240\u9700\u89E3\u91CA\u5668\u7684\u4F4D\u7F6E
+2. \u5B89\u5168\u6027\u76F8\u5BF9\u8F83\u9AD8
+3. \u53EF\u4EE5\u4F20\u9012\u591A\u4E2A\u53C2\u6570
+</code></pre><p>\u7F3A\u70B9\uFF1A</p><pre><code>1. \u53EF\u79FB\u690D\u6027\u8F83\u5DEE\uFF0C\u4E0D\u540C\u7684\u7CFB\u7EDF\u89E3\u91CA\u5668\u4F4D\u7F6E\u53EF\u80FD\u4E0D\u540C
+2. \u4E00\u4E9B\u89E3\u91CA\u5668\u4F4D\u7F6E\u4E0D\u592A\u597D\u8BB0
+</code></pre><h2 id="_1-1-2-usr-bin-env-node" tabindex="-1"><a class="header-anchor" href="#_1-1-2-usr-bin-env-node" aria-hidden="true">#</a> 1.1.2 #!/usr/bin/env node</h2><p>\u4F18\u70B9\uFF1A</p><pre><code>1. \u53EF\u79FB\u690D\u6027\u5F88\u5F3A\uFF0C\u7CFB\u7EDF\u81EA\u5DF1\u53BB\u627E\u6240\u9700\u547D\u4EE4
+2. \u4E0D\u4E86\u89E3\u4E3B\u673A\u73AF\u5883\u7684\u65F6\u5019\uFF0C\u8FD9\u79CD\u5199\u6CD5\u53EF\u4EE5\u5FEB\u901F\u7684\u5F00\u59CB\u5F00\u53D1\u5DE5\u4F5C
+</code></pre><p>\u7F3A\u70B9\uFF1A</p><pre><code>1. \u65E0\u6CD5\u4F20\u9012\u591A\u4E2A\u53C2\u6570\uFF0C#!/usr/bin/env node -w avc \u8FD9\u79CD\u5199\u6CD5\u4F1A\u63D0\u793A &quot;node -w avc \u627E\u4E0D\u5230\u8FD9\u4E2A\u547D\u4EE4\u7684\u9519\u8BEF&quot;
+2. \u5B89\u5168\u6027\u4E0D\u591F\u9AD8\uFF0C\u56E0\u4E3A $PATH\u4E2D\u7684\u547D\u4EE4\u53EF\u4EE5\u88AB\u4F2A\u9020\uFF0C\u4F46\u662F /bin \u76EE\u5F55\u4E00\u822C\u53EA\u6709root\u7528\u6237\u624D\u6709\u64CD\u4F5C\u6743\u9650\uFF0C\u6240\u4EE5 #!/bin/bash \u5199\u6CD5\u76F8\u5BF9\u66F4\u52A0\u5B89\u5168
+</code></pre>`,16),i=[d];function c(o,h){return n(),a("div",null,i)}var l=e(r,[["render",c],["__file","shell.html.vue"]]);export{l as default};
