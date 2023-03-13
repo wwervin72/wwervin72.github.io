@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6f6c5a54","path":"/%E5%89%8D%E7%AB%AF/web-components/webComponents.html","title":"web components","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"\u524D\u7AEF/web-components/webComponents.md"}');export{e as data};
